@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beam math - the candela names the throw, the cell names the hours, and the charger names the wait</title>
+<style>
+  :root { --accent: #8a2a3a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Georgia, 'Times New Roman', serif; background: #f4f6f8; color: #24282c; line-height: 1.55; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 2.4rem; margin: 0 0 12px; color: var(--accent); }
+  h2 { font-size: 1.25rem; margin: 40px 0 12px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); }
+  .cta { display: inline-block; margin: 10px 0 8px; padding: 12px 22px; background: var(--accent); color: #fff; text-decoration: none; border-radius: 6px; font-size: 1.05rem; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .norms { background: #fff; border: 1px solid #d8dfe6; border-left: 4px solid var(--accent); border-radius: 6px; padding: 14px 18px; margin-top: 12px; }
+  footer { max-width: 720px; margin: 0 auto; padding: 0 20px 40px; font-size: 0.85rem; color: #98a2ab; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Beam math</h1>
+  <p>A flashlight box leads with lumens because lumens are the big number, but lumens say nothing about reach. Throw lives in the candela, hours live in the watt-hours, and the wait lives in the charger. Beam math works all three honestly: candela becomes meters by the ANSI throw rule, the cell's watt-hours become real runtime at honest system efficiency, and the charge becomes the hours it actually takes. Exact arithmetic, every borrowed number labeled.</p>
+  <a class="cta" href="app.html">Open the calculators</a>
+  <h2>The three tools</h2>
+  <ul>
+    <li><strong>Throw plan</strong> - the candela becomes the meters the beam reaches before it fades to moonlight.</li>
+    <li><strong>Runtime plan</strong> - the lumens against the cell's watt-hours become the hours the light really runs.</li>
+    <li><strong>Charge plan</strong> - the cell and the charger's milliamps become the honest wait at the outlet.</li>
+  </ul>
+  <h2>Labeled norms</h2>
+  <div class="norms">
+    Labeled norms: the ANSI throw rule (twice the square root of candela), 80 lumens per watt at the system level and 85% charge efficiency - all starting points you replace by reading your own spec sheet. Real lights step down as they heat: the box number is the first minute, not the last. Never shine a powerful light at people, drivers or aircraft, and match the cell to what the light's manual allows.
+  </div>
+</main>
+<footer>Built by the app factory. <a href="https://github.com/iLanis-agent/beammath">Source on GitHub</a></footer>
+</body>
+</html>
